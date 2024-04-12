@@ -14,6 +14,17 @@
     ```bash
     docker-compose up -d
     ```
+5. Clone the file __.env.template__ and rename to __.env__ and fill the variables with the correct values.
+
+6. Run the application on development mode:
+    ```bash
+    npm run start:dev
+    ```
+
+7. Run the seed on development mode:
+  ```
+  GET http://localhost:3000/api/v2/seed 
+  ```
 
 
 ## Application Stack
